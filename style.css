@@ -21,7 +21,7 @@ a {
 }
 
 section {
-  margin: 8rem 0;
+  margin: 3rem 0;
 }
 
 h1 {
@@ -80,7 +80,9 @@ input {
 }
 
 .header {
-  background-color: hsl(208, 100%, 96%);
+  background-image: linear-gradient(white, hsl(208, 100%, 95%));
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
+  padding-bottom: 5rem;
 }
 
 .design {
@@ -164,6 +166,9 @@ input {
 
 .profile {
   text-align: center;
+  background-color: hsl(249, 100%, 99%);
+  clip-path: polygon(0 20%, 100% 0, 100% 80%, 0 100%);
+  padding: 8rem 0;
 }
 
 .profile p {
