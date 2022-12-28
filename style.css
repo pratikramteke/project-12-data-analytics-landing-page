@@ -30,7 +30,7 @@ h1 {
 }
 
 h2 {
-  font-size: 3rem;
+  font-size: 2rem;
   margin: 0.5em 0;
 }
 
@@ -62,11 +62,14 @@ input {
 .two-col {
   display: grid;
   align-items: center;
+  gap: 3rem;
   grid-template-columns: repeat(2, 1fr);
 }
 
 .three-col {
   display: grid;
+  margin-top: 2rem;
+  gap: 3rem;
   grid-template-columns: repeat(3, 1fr);
 }
 
@@ -94,7 +97,7 @@ input {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0.5em 0;
+  padding: 0.3em 0;
 }
 
 .first-design a {
@@ -145,6 +148,11 @@ input {
   text-align: center;
 }
 
+.actionable > p {
+  width: 60%;
+  margin: 0 auto;
+}
+
 .main p {
   font-size: 1rem;
 }
@@ -157,11 +165,11 @@ input {
 }
 
 .third-design {
-  width: 30%;
+  width: 40%;
 }
 
 .fourth-design {
-  width: 30%;
+  width: 50%;
 }
 
 .profile {
@@ -172,7 +180,28 @@ input {
 }
 
 .profile p {
-  color: black;
+  opacity: 100%;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.profile div {
+  padding: 1rem 0;
+}
+
+.sign-up-section p {
+  text-align: center;
+  /* margin: 1rem 0; */
+}
+
+.sign-up-section img {
+  margin: 1rem 0;
+}
+
+.two-logo {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem;
 }
 
 .form {
@@ -190,13 +219,27 @@ input {
   margin: 2rem 0;
 }
 
+.main p {
+  font-weight: 500;
+}
+
 .footer {
-  margin: 4rem 0;
+  padding: 4rem 0;
   background-color: hsl(225, 100%, 99%);
+}
+
+.footer li {
+  margin-top: 0.5rem;
 }
 
 .footer p {
   font-size: 1rem;
+  opacity: 100%;
+  font-weight: 550;
+}
+
+.footer img {
+  margin-right: 1rem;
 }
 
 .footer input {
